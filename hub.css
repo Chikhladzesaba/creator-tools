@@ -20,14 +20,17 @@ body {
 
 .wrap {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 0 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-section { margin-bottom: 56px; }
+/* Space between sections */
+section { margin-bottom: 72px; }
 
 /* Header */
-.hero { padding-top: 72px; padding-bottom: 24px; }
+.hero { padding-top: 72px; margin-bottom: 40px; }
 .eyebrow {
   margin: 0 0 8px;
   color: var(--accent);
@@ -98,8 +101,8 @@ h2 {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  max-width: 928px;
+  padding: 28px;
 }
 .privacy ul { margin: 0 0 16px; padding-left: 20px; }
 .privacy li { margin-bottom: 6px; }
@@ -107,6 +110,7 @@ h2 {
 
 /* Footer */
 footer {
+  margin-top: 72px;
   border-top: 1px solid var(--border);
   padding-top: 24px;
   padding-bottom: 40px;
