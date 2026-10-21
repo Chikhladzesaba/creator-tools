@@ -127,3 +127,5 @@ a { color: var(--accent); }
 .support a { color: var(--accent); font-weight: 600; text-decoration: none; }
 .support a:hover { text-decoration: underline; }
 .support + .support { margin-top: 4px; }
+h1 { font-family: 'Inter Tight', sans-serif; font-weight: 400; letter-spacing: -0.03em; }
+h1 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; letter-spacing: 0; }
